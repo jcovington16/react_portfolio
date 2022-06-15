@@ -1,12 +1,9 @@
-import Profile from './components/Home/Profile';
-// import Navbar from './components/Navbar/Navbar';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar/> */}
-      <Profile />
-      
+    <div className="text-4xl font-bold font-signature">
+      Hello
     </div>
   );
 }
