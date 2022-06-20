@@ -1,12 +1,12 @@
-import Profile from './components/Home/Profile';
-// import Navbar from './components/Navbar/Navbar';
+import React from 'react';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar/> */}
-      <Profile />
-      
+    <div>
+      <NavBar/>
+      <Home />
     </div>
   );
 }
